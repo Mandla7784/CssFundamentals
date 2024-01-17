@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+
+html{
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+   
+}
+header{
+    background-color: rgb(255, 255, 255);
+    height: 80px;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+nav ul{
+    margin-left: 2rem;
+}
+
+header nav{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+    background-color: rgb(23, 23, 23);
+     margin-top: 5rem;
+     border-radius: 25px;
+     box-shadow: 0 0 10px rgba(0,0,0,0.45);
+    padding: 0;
+    margin-bottom: 10px;
+
+}
+header nav li{
+    display: inline-block;
+}
+nav h2{
+    margin-right: 37rem;
+    color: rgb(219, 213, 213);
+}
+nav li a{
+   margin-left: 20px;
+    text-decoration: none;
+    color: rgb(28, 28, 28);
+    text-transform: uppercase;
+    color: rgb(205, 204, 204);
+}
+
+#Home{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.learn-more p{
+    width: 350px;
+}
+.learn-more{
+    width: 400px;
+    padding: 20px;
+    height: 300px;
+    background-color: white;
+    border-radius: 23px;
+     box-shadow: 0 0 5px rgba(0,0,0,0.45);
+    margin-top: 10px;
+    color: rgb(23, 23, 23);
+
+
+}
+#btn-Getstarted{
+    background-color: white;
+    padding: 0.5rem 2rem;
+    border: 2px solid black;
+    margin-top: 20px;
+    
+}
+
+#About{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    background-image: url(https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/wp1lcwdav1p1/72AYgWguyRFfesCrDJi8w8/35b0d50e819d179b4d99b5f8e44fb416/GettyImages-1255905368.jpg?w=1500&h=680&q=60&fit=fill&f=faces&fm=jpg&fl=progressive&auto=format%2Ccompress&dpr=1&w=1000&h);
+}
+
+#About img{
+   width: 600px ;
+   height: 500px; 
+}
+
+.about-content{
+    width: 400px;
+    height: 500px;
+    background-color: rgb(15, 14, 14);
+    padding: 50px 20px;
+    color: white;
+   
+}
+.about-content button{
+    margin-top: 50px;
+    padding: 0.5rem 2rem;
+    border-radius: 7px;
+    border: 0;
+    background-color: white;
+   
+    color:black;
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: .4;
+    background-color: rgb(98, 106, 59);
+}
+
+footer{
+    background-color: black;
+    height: 100px;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-left: 23rem;
+}
